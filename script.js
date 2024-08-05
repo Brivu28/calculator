@@ -31,7 +31,7 @@ const calculate = (num1,num2,a)=>{
         return c;
     }
 
-}
+}//
 let count =0;
 let num1=0;////
 let num2=0;
