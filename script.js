@@ -33,28 +33,15 @@ const calculate = (num1,num2,a)=>{
 
 }
 let count =0;
-let num1=0;
+let num1=0;////
 let num2=0;
 let a = "";
+
+button.forEach
 for(let i =0 ; i<16; i++){
    
     button[i].addEventListener("click",()=>{
 
-        while(button[i].innerText!="+"|| button[i].innerText!="-"|| button[i].innerText!="*"|| button[i].innerText!="/"|| button[i].innerText!="%"){
-            if(count==0 ){
-                input.value = input.value + button[i].innerText;
-                num1 = Number(button[i].innerText);
-                console.log(num1);
-                count++;
-                    }
-                else if(count==1){
-                        input.value = input.value + button[i].innerText;
-                        num2 = Number(button[i].innerText);
-                        console.log(num2);
-                        count=0;
-                            }
-        }
-   
         if(button[i].innerText=="+"|| button[i].innerText=="-"|| button[i].innerText=="*"|| button[i].innerText=="/"|| button[i].innerText=="%")
         {
             input.value = input.value + button[i].innerText;
